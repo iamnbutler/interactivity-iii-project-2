@@ -56,7 +56,9 @@ a {
 
 html, body {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif; }
 
 .stage {
   width: 100%;
@@ -70,11 +72,24 @@ html, body {
   left: 0;
   z-index: 0; }
 
+.title-block {
+  margin: 40px; }
+
 h1 {
-  margin: 40px;
-  padding: 20px;
-  background-color: #F5F5F5;
-  display: inline-block; }
+  float: left;
+  padding: 8px 12px;
+  font-size: 28px;
+  background-color: #F9F9F9;
+  display: inline-block;
+  font-weight: 300; }
+
+.grade {
+  float: left;
+  font-size: 24px;
+  padding: 10px 12px;
+  background-color: #EFEFEF;
+  font-weight: 300;
+  color: green; }
 
 .nav-arrow {
   width: 50px;
@@ -85,13 +100,90 @@ h1 {
   top: 50%;
   z-index: 999;
   opacity: 0.4;
-  transition: 0.4; }
+  transition: 0.4;
+  -webkit-background-size: 40px;
+  background-size: 40px;
+  background-position: center; }
   .nav-arrow:hover {
     opacity: 1;
     transition: 0.8; }
 
 .next {
-  right: 0; }
+  right: 0;
+  background-image: url("../img/right-arrow.png"); }
 
 .prev {
-  left: 0; }
+  left: 0;
+  background-image: url("../img/left-arrow.png"); }
+
+.more {
+  width: 50px;
+  height: 50px;
+  background-color: #F5F5F5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url("../img/more.png");
+  -webkit-background-size: 30px;
+  background-size: 30px;
+  background-position: center;
+  opacity: 0.4;
+  background-repeat: no-repeat; }
+
+.deck {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  position: absolute;
+  bottom: -240px;
+  left: 0;
+  background-color: #F5F5F5; }
+
+.deck img {
+  height: 235px;
+  width: auto;
+  float: left; }
+
+.grade-nav-wrapper {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  opacity: 0.4; }
+  .grade-nav-wrapper:hover {
+    opacity: 1; }
+
+.grade-nav {
+  margin-left: -126px;
+  left: 50%;
+  position: absolute; }
+  .grade-nav li {
+    padding: 12px 18px;
+    font-size: 18px;
+    display: inline-block; }
+  .grade-nav li:first-child {
+    background-color: #00dc00; }
+  .grade-nav li:nth-child(2) {
+    background-color: #28a000; }
+  .grade-nav li:nth-child(3) {
+    background-color: #506400; }
+  .grade-nav li:nth-child(4) {
+    background-color: #783c00; }
+  .grade-nav li:nth-child(5) {
+    background-color: #b61e00; }
+
+.grades.gradea {
+  border-top: 5px #00dc00 solid; }
+
+.grades.gradeb {
+  border-top: 5px #28a000 solid; }
+
+.grades.gradec {
+  border-top: 5px #506400 solid; }
+
+.grades.graded {
+  border-top: 5px #783c00 solid; }
+
+.grades.gradef {
+  border-top: 5px #b61e00 solid; }

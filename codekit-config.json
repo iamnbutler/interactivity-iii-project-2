@@ -2,28 +2,38 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/img\/p2_caution.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/p2_caution.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/p2_caution.jpg",
-      "initialSize" : 113540,
-      "fileType" : 4096
-    },
-    "\/css\/scss\/_reset.scss" : {
+    "\/js\/scripts-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/scss\/_reset.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_reset.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/scripts-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/scripts-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/img\/left-arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/left-arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/left-arrow.png",
+      "initialSize" : 515,
+      "fileType" : 8192
+    },
+    "\/js\/jquery-1.7.2.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery-1.7.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery-1.7.2.min-ck.js",
+      "fileType" : 64
     },
     "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -36,18 +46,6 @@
       "outputAbbreviatedPath" : "\/js\/scripts-ck.js",
       "fileType" : 64
     },
-    "\/css\/scss\/style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/scss\/style.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -57,14 +55,36 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/img\/match.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/match.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/match.jpg",
+      "initialSize" : 162143,
+      "fileType" : 4096
+    },
     "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
+    },
+    "\/img\/lid.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/lid.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/lid.jpg",
+      "initialSize" : 140412,
+      "fileType" : 4096
     },
     "\/css\/scss\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -78,16 +98,62 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/jquery-1.7.2.min.js" : {
+    "\/img\/right-arrow.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery-1.7.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery-1.7.2.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/right-arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/right-arrow.png",
+      "initialSize" : 518,
+      "fileType" : 8192
+    },
+    "\/img\/more.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/more.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/more.png",
+      "initialSize" : 384,
+      "fileType" : 8192
+    },
+    "\/css\/scss\/_reset.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/scss\/_reset.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_reset.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/img\/p2_caution.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/p2_caution.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/p2_caution.jpg",
+      "initialSize" : 113540,
+      "fileType" : 4096
+    },
+    "\/css\/scss\/style.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/scss\/style.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/style.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [

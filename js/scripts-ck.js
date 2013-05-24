@@ -1,0 +1,2 @@
+// Load scripts after page loads
+$(document).ready(function(){$(".more.closed").on("click",function(){$(this).stop().animate({bottom:"240px"});$(".deck").stop().animate({bottom:"0"});$(this).removeClass("closed");$(this).addClass("open");return!1});$(".more.open").on("click",function(){$(this).stop().animate({bottom:"0px"});$(".deck").stop().animate({bottom:"-240px"});$(this).removeClass("open");$(this).addClass("closed");return!1})});
