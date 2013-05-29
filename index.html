@@ -14,32 +14,122 @@
 
 		<link rel="icon" type="image/png" href="">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/tooltipster.css">
 		<link rel="stylesheet" href="css/style.css">
 
 	</head>
 	<body>
 		<div class="stage">
-			<div class="title-block">
-				<h1 class="title">Tapes &amp; Ribbons</h1>
-				<div class="grade">B</div>
+			<div class="library">
+				<ul class="gradea-lib lib-active" title="Grade A Library">
+					<li class="mat-glass active" title="Glass">
+						<div class="title-block">
+							<h1 class="title">Glass</h1>
+							<h2 class="grade-indicator">Grade A (1/5)</h2>
+							<div class="grade">A</div>
+						</div>
+					</li>
+					<li class="mat-coin" title="Metal">
+						<div class="title-block">
+							<h1 class="title">Metal</h1>
+							<h2 class="grade-indicator">Grade A (2/5)</h2>
+							<div class="grade">A</div>
+						</div>
+					</li>
+					<li class="mat-rock" title="Rock">
+						<div class="title-block">
+							<h1 class="title">Rock</h1>
+							<h2 class="grade-indicator">Grade A (3/5)</h2>
+							<div class="grade">A</div>
+						</div>
+					</li>
+					<li class="mat-bolt" title="Bolt">
+						<div class="title-block">
+							<h1 class="title">Bolt</h1>
+							<h2 class="grade-indicator">Grade A (4/5)</h2>
+							<div class="grade">A</div>
+						</div>
+					</li>
+					<li class="mat-wood" title="Wood">
+						<div class="title-block">
+							<h1 class="title">Wood</h1>
+							<h2 class="grade-indicator">Grade A (5/5)</h2>
+							<div class="grade">A</div>
+						</div>
+					</li>
+				</ul>
+
+				<ul class="gradeb-lib" title="Grade B Library">
+					<li class="mat-battery" title="Battery">
+						<div class="title-block">
+							<h1 class="title">Battery</h1>
+							<h2 class="grade-indicator">Grade B (1/6)</h2>
+							<div class="grade">B</div>
+						</div>
+					</li>
+					<li class="mat-bamboo" title="Bamboo">
+						<div class="title-block">
+							<h1 class="title">Metal</h1>
+							<h2 class="grade-indicator">Grade B (2/5)</h2>
+							<div class="grade">B</div>
+						</div>
+					</li>
+					<li class="mat-light" title="Light">
+						<div class="title-block">
+							<h1 class="title">Rock</h1>
+							<h2 class="grade-indicator">Grade B (3/5)</h2>
+							<div class="grade">B</div>
+						</div>
+					</li>
+					<li class="mat-tape" title="Tape">
+						<div class="title-block">
+							<h1 class="title">Bolt</h1>
+							<h2 class="grade-indicator">Grade B (4/5)</h2>
+							<div class="grade">B</div>
+						</div>
+					</li>
+					<li class="mat-plug" title="Plug">
+						<div class="title-block">
+							<h1 class="title">Wood</h1>
+							<h2 class="grade-indicator">Grade B (5/5)</h2>
+							<div class="grade">B</div>
+						</div>
+					</li>
+					<li class="mat-screw" title="Screw">
+						<div class="title-block">
+							<h1 class="title">Wood</h1>
+							<h2 class="grade-indicator">Grade B (5/5)</h2>
+							<div class="grade">B</div>
+						</div>
+					</li>
+				</ul>
+
+				<ul class="gradea-lib" title="Grade C Library">
+					<li class="mat-glass" title="Plastic Utensil"></li>
+					<li class="mat-coin" title="Paper + Cardboard"></li>
+					<li class="mat-rock" title="Packaging"></li>
+					<li class="mat-bolt" title="Pins + Needles"></li>
+					<li class="mat-wood" title="Shells"></li>
+					<li class="mat-wood" title="Straws"></li>
+				</ul>
 			</div>
 		</div>
 
 		<div class="grade-nav-wrapper">
 			<ul class="grade-nav">
-				<li>A</li>
-				<li>B</li>
-				<li>C</li>
-				<li>D</li>
-				<li>F</li>
+				<li class="tooltip" title="Grade A"></li>
+				<li class="tooltip" title="Grade B"></li>
+				<li class="tooltip" title="Grade C"></li>
+				<li class="tooltip" title="Grade D"></li>
+				<li class="tooltip" title="Grade F"></li>
 			</ul>	
 		</div>
 
 		<div class="deck">
-			<img class="grades gradea" src="img/match.jpg" alt="Matches">
-			<img class="grades gradea" src="img/lid.jpg" alt="Lid">
-			<img class="grades gradeb" src="img/match.jpg" alt="Matches">
-			<img class="grades gradec" src="img/lid.jpg" alt="Lid">
+			<img class="grades gradea" src="img/fork.jpg" alt="Matches">
+			<img class="grades gradea" src="img/lightbulb.jpg" alt="Lid">
+			<img class="grades gradeb" src="img/b/bolt.jpg" alt="Matches">
+			<img class="grades gradec" src="img/p2_caution.jpg" alt="Lid">
 			<img class="grades graded" src="img/match.jpg" alt="Matches">
 			<img class="grades gradef" src="img/lid.jpg" alt="Lid">
 			<img class="grades gradef" src="img/match.jpg" alt="Matches">
@@ -53,6 +143,7 @@
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
+		<script src="js/jquery.tooltipster.min.js"></script>
 		<script src="js/scripts.js"></script>
 	</body>
 </html>

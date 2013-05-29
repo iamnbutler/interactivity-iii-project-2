@@ -25,4 +25,10 @@ $(document).ready(function(){
 		return false;
 	});
 
+	$('.tooltip').tooltipster();
+
+	$('.next').click(function(){
+		$('.lib-active').find('.active').removeClass('active').next().addClass('active');
+	});
+
 });

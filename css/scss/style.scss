@@ -18,7 +18,7 @@ html, body {
 .stage {
 	width: 100%;
 	height: 100%;
-	background-image: url(../img/p2_caution.jpg);
+	background-image: url(../img/d/flowers.jpg);
 	-webkit-background-size: 90% auto;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -28,42 +28,112 @@ html, body {
 	z-index: 0;
 }
 
+.library {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	li {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+		-webkit-background-size: 90% auto;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	li.active {
+		display: block;
+	}
+
+	// Material Backgrounds
+	// A Grade
+	.mat-glass {
+		background-image: url(../img/a/bottle.jpg);
+	}
+
+	.mat-coin {
+		background-image: url(../img/a/coin.jpg);
+	}
+
+	.mat-rock {
+		background-image: url(../img/a/rock.jpg);
+	}
+
+	.mat-wood {
+		background-image: url(../img/a/stick.jpg);
+	}
+
+	.mat-bolt {
+		background-image: url(../img/a/bolt.jpg);
+	}
+
+	// B Grade
+
+	.mat-battery {
+		background-image: url(../img/b/battery.jpg);
+	}
+
+	.mat-bamboo {
+		background-image: url(../img/b/chopsticks.jpg);
+	}
+
+	.mat-light {
+		background-image: url(../img/b/lightbulb.jpg);
+	}
+
+	.mat-tape {
+		background-image: url(../img/b/p2_caution.jpg);
+	}
+
+	.mat-plug {
+		background-image: url(../img/b/plug.jpg);
+	}
+	.mat-screw {
+		background-image: url(../img/b/short-screw.jpg);
+	}
+}
+
 .title-block {
-	margin: 40px;
+	margin: 30px 40px;
 }
 
 h1 {
 	float: left;
 	padding: 8px 12px;
 	font-size: 28px;
-	background-color: #F9F9F9;
 	display: inline-block;
 	font-weight: 300;
+	color: #555;
 }
 
 .grade {
 	float: left;
-	font-size: 24px;
-	padding: 10px 12px;
-	background-color: #EFEFEF;
+	font-size: 28px;
+	padding: 8px 4px;
 	font-weight: 300;
-	color: green;
+	color: #3FB8AF;
 }
 
 // Arrows
 
 .nav-arrow {
-	width: 50px;
-	height: 50px;
-	background-color: #F5F5F5;
+	width: 80px;
+	height: 80px;
 	position: absolute;
-	margin-top: -25px;
+	margin-top: -40px;
 	top: 50%;
 	z-index: 999;
 	opacity: 0.4;
-	transition: 0.4;
+	transition: 0.6;
 	-webkit-background-size: 40px;
 	background-size: 40px;
+	background-repeat: no-repeat;
 	background-position: center;
 	&:hover {
 		opacity: 1;
@@ -99,9 +169,8 @@ h1 {
 // Deck
 
 .deck {
-	width: 100%;
+	width: 2500%;
 	height: 240px;
-	overflow: hidden;
 	position: absolute;
 	bottom: -240px;
 	left: 0;
@@ -122,60 +191,86 @@ h1 {
 	position: absolute;
 	left: 0;
 	bottom: 0px;
-	opacity: 0.4;
+	opacity: 0.2;
 	&:hover {
-		opacity: 1;
+		opacity: 0.5;
 	}
 }
 .grade-nav {
 	margin-left: -126px;
 	left: 50%;
 	position: absolute;
+	bottom: 40px;
 	li {
-		padding: 12px 18px;
 		font-size: 18px;
-		display: inline-block;
+		display: block;
+		margin: 0;
+		width: 48px;
+		height: 32px;
+		float: left;
+		pointer: cursor;
 	}
 
 	li:first-child {
-		background-color: #00dc00;
+		background-color: #3FB8AF;
+		-webkit-border-top-left-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		-moz-border-radius-topleft: 8px;
+		-moz-border-radius-bottomleft: 8px;
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
 	}
 
 	li:nth-child(2) {
-		background-color: #28a000;
+		background-color: #7FC7AF;
 	}
 
 	li:nth-child(3) {
-		background-color: #506400;
+		background-color: #DAD8A7;
 	}
 
 	li:nth-child(4) {
-		background-color: #783c00;
+		background-color: #FF9E9D;
 	}
 
 	li:nth-child(5) {
-		background-color: #b61e00;
+		background-color: #FF3D7F;
+		-webkit-border-top-right-radius: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		-moz-border-radius-topright: 8px;
+		-moz-border-radius-bottomright: 8px;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
 	}
+}
+
+.grade-indicator {
+	position: fixed;
+	color: #999;
+	font-size: 80%;
+	padding: 40px 40px;
+	top: 0;
+	right: 0;
 }
 
 // Grade
 
 .grades.gradea {
-	border-top: 5px #00dc00 solid;
+	border-top: 5px #3FB8AF solid;
 }
 
 .grades.gradeb {
-	border-top: 5px #28a000 solid;
+	border-top: 5px #7FC7AF solid;
 }
 
 .grades.gradec {
-	border-top: 5px #506400 solid;
+	border-top: 5px #DAD8A7 solid;
 }
 
 .grades.graded {
-	border-top: 5px #783c00 solid;
+	border-top: 5px #FF9E9D solid;
 }
 
 .grades.gradef {
-	border-top: 5px #b61e00 solid;
+	border-top: 5px #FF3D7F solid;
 }
